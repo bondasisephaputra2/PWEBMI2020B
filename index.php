@@ -31,7 +31,11 @@ fwrite($myfile, $txt);
 $txt = "Minnie Mouse\n";
 fwrite($myfile, $txt);
 fclose($myfile);
+
+echo "test";
 ?>
+
+
 
 </body>
 </html>
